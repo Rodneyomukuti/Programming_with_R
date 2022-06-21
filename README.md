@@ -17,7 +17,25 @@ For efficiency, you need to install the latest versions of R (4.0.3 and above). 
 ### R studio
 You can download and install R studio using this [link](http://www.rstudio.com/). Upon installation, you can start using R by opening/starting R studio which gives you an interactive medium called the console. You can access the [documentation](https://support.rstudio.com/hc/en-us/categories/200035113-Documentation) on the layout of R studio
 
-## 1. Basic statistics in R
+## 2.0 Basic statistics in R
+### 2.1 Using R as a simple calculater
+We can start by using R as a simple arithmetic calculator. The console has a ">" sign which is refered to as the command prompt. This sign tells the user when to start typing.
+For instance:
+
+R: `10+10`
+
+Output: `[1] 20`
+
+R: `100 *     100`
+
+Output: `[1] 1000`
+
+In the examples above, when you type 10 + 10 in the console, R computes this and gives you an output 20, so is 100 * 100 when you press enter. From this, we can infer a few things:
+- R is not space sensitive unlike other programming languages. That is, `10+10, 10   +  10 = 20`
+- Pressing enter runs your code
+- The output has a [1] sign at the beginning. This means that your output lines are indexed, and this helps to tell you the beginning of a new output line from previous lines
+
+
 
 
 
