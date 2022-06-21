@@ -106,6 +106,9 @@ N/B To create character data type, the value(s) assigned to the variable must be
 
 `sample_id <- "1594abcde11"`
 
+***Exercise 1: Explore the usage of the other functions***
+
+
 
 
 
