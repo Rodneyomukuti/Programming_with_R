@@ -34,6 +34,9 @@ In the examples above, when you type 10 + 10 in the console, R computes this and
 - R is not space sensitive unlike other programming languages. That is, `10+10, 10   +  10 = 20`
 - Pressing enter runs your code
 - The output has a [1] sign at the beginning. This means that your output lines are indexed, and this helps to tell you the beginning of a new output line from previous lines
+- R can take different arithmetic operators such as division (/), addition (+), subtraction (-), multiplication (*)*, integer division (%/%), power (^), modulus (%%), among others
+
+
 
 
 
