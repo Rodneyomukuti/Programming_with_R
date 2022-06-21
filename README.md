@@ -39,6 +39,9 @@ In the examples above, when you type 10 + 10 in the console, R computes this and
 - R can take different arithmetic operators such as division (/), addition (+), subtraction (-), multiplication (*)*, integer division (%/%), power (^), modulus (%%), among others
 
 ### 2.2 Data structures and data types
+
+#### 2.2.1 Creating variables
+
 R gives you the ability to store pieces of information (data) with lables or tags. This is called creating variables
 
 #### variable assignment
@@ -64,7 +67,26 @@ Output: [1] 50
 ```
 **N/B: You can as well do calculations using variables**
 
+#### 2.2.2 Data types
 
+To effectively work with R, it is paramount that you understand the basic data types and structures and they they are operated/manupulated. Data structures, for example, are key when working with R because you will be interacting with them daily when doing analysis in R. 
+There are six common data types in R:
+
+- character eg "b", "abcd"
+- Logical eg TRUE, FALSE
+- Numeric eg 7, 10.1
+- integers eg 3L (where L makes the 3 to be stored as an integer)
+- complex: complex numbers with real and imaginery parts eg 3 + 7i
+
+There are many user-friendly functions that are used in examining different features of vectors and objects in R.
+There are:
+
+- class() - what kind of object is it (high-level)?
+- typeof() - what is the object’s data type (low-level)?
+- length() - how long is it? What about two dimensional objects?
+- attributes() - does it have any metadata?
+
+Examples:
 
 
 
