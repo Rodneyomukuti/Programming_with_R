@@ -87,7 +87,24 @@ There are:
 - attributes() - does it have any metadata?
 
 Examples:
+```
+Var1 <- FALSE
+sample_number <- 1
+sample_id <- "1594abcde11"
 
+R: class (Var1)
+Output: [1] "logical"
+
+R: class (sample_number)
+Output: [1] "numeric"
+
+R: class (sample_id)
+Output: [1] "character"
+```
+
+N/B To create character data type, the value(s) assigned to the variable must be enclosed in double quotes:
+
+`sample_id <- "1594abcde11"`
 
 
 
