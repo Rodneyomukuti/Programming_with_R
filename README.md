@@ -108,7 +108,74 @@ N/B To create character data type, the value(s) assigned to the variable must be
 
 ***Exercise 1: Explore the usage of the other functions***
 
+#### Vectors
 
+A vector is a variable with the ability to store multiple variables. For instance, a tutor wants to grade an assignment from a class of 12 students with the following grades: 
+
+`100, 0, 90, 92, 94, 94, 94, 100, 0, 90, 98, 98`
+
+#### Creating a vector
+
+The combine function `c ()` is used when creating vectors. You pass the values you want to be stored in a vector to the `c ()` function, separated by commas. To view the vector, call the variable name.
+
+Example:
+```
+R: grades <- c(100, 0, 90, 92, 94, 94, 94, 100, 0, 90, 98, 98)
+R: grades
+Output:  [1] 100   0  90  92  94  94  94 100   0  90  98  98
+```
+#### Single out information in vectors
+
+In the event where you would like to know the grade for the first student, you just reference the first element in the vector.
+```
+R: grades[1]
+Output: [1] 100
+```
+Note that, the number in the square brackets is the index of the items in the vector. If you wanted the 12th item, you would write `grades[12]`. It is also important to note that other programming languages begin indexing at `0 not 1`.
+
+#### Altering elements in a vector
+
+Suppose you need to do some changes on the vector, there are two approaches:
+1. recreating the entire vector while making the changes
+2. just replacing those values that you are intrested in
+Option is the easiest.
+Example:
+```
+Assuming you want to do away with the zeros in the vector, that means it is element 2, and 9. Therefore, replace through reassignment
+
+R: grades[2] <- 80
+R: grades[9] <- 75
+R: grades
+Output: [1] 100  80  90  92  94  94  94 100  75  90  98  98
+```
+It is also easier to add 2 points throughout the entire elemnts in the vector by just running:
+
+```
+R: grades +2
+Output: [1] 102  82  92  94  96  96  96 102  77  92 100 100
+
+However, the values won’t be updated. For example, if you call grdes:
+
+R: grades
+Output: [1] 100  80  90  92  94  94  94 100  75  90  98  98
+
+You’ll notice that the command grades+2 didn’t update. It just calculated the results but did not update the vector.
+
+To update the vector, type
+
+R: grades = grades +  2
+R: grades
+Output: [1] 102  82  92  94  96  96  96 102  77  92 100 100
+```
+
+#### Counting elements in a vector
+
+If you wanted to know how many grades were recorded, you can achieve this by using the function `length ()`
+
+```
+R: length (grades)
+Oitput: [1] 12
+```
 
 
 
