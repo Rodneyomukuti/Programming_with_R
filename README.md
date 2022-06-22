@@ -5,7 +5,9 @@ Notes on Introduction and fundamentals of R
 R is a programming tool/language that is widely used by statisticians, data scientists and other users. It is widely used in computational genomics because it provides a wide variety of statistical (linear and nonlinear modeling, classical statistical tests, time-series analysis classification, clustering, etc) and graphical techniques, and is highly extensible.
 
 This tutorial will focus on two fundamental aspects of R.
+
 i. Basic statistics
+
 ii. Genomic analysis
 
 ### 1.1 Installing R and R studio
