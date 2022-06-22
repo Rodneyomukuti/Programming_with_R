@@ -108,7 +108,7 @@ N/B To create character data type, the value(s) assigned to the variable must be
 
 ***Exercise 1: Explore the usage of the other functions***
 
-#### Vectors
+#### 2.2.3 Vectors
 
 A vector is a variable with the ability to store multiple variables. For instance, a tutor wants to grade an assignment from a class of 12 students with the following grades: 
 
@@ -176,6 +176,7 @@ If you wanted to know how many grades were recorded, you can achieve this by usi
 R: length (grades)
 Oitput: [1] 12
 ```
+
 
 
 
