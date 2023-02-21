@@ -176,7 +176,7 @@ If you wanted to know how many grades were recorded, you can achieve this by usi
 
 ```
 R: length (grades)
-Oitput: [1] 12
+Output: [1] 12
 ```
 
 
